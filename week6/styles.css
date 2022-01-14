@@ -1,5 +1,5 @@
 p {
-    background-color: salmon;
+    background-color:darkmagenta;
 }
 #title {background-color:goldenrod;
 }
@@ -7,6 +7,6 @@ p {
     color:rgb(112, 16, 180);
 }
 *{
-    color:indianred
+    color:crimson
 }
 a[href="https://niva.ac.th/"]{font-size: 40px}
