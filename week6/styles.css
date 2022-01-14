@@ -1,19 +1,12 @@
-div {
-    background-color: silver;
-}
 p {
     background-color: salmon;
 }
-#title {color:goldenrod;
+#title {background-color:goldenrod;
 }
 .grade{
     color:rgb(112, 16, 180);
 }
-* {
-    background-color: royalblue;
-}
 *{
     color:indianred
 }
-a[href="https://niva.ac.th/"]{font-size: 40px
-}
+a[href="https://niva.ac.th/"]{font-size: 40px}
