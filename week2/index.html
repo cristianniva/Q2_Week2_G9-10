@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA Compatible" content="IE-edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: papayawhip;
+        }
+        div p{ /* descendant selectors*/
+            color:tomato;
+            font-size: 20pt;
+        }
+        div > p{ /*child selector*/
+            background-color: lime;
+            font-weight: bold;
+        }
+        section + p { /*Adjacent sibling selectors (+) */
+            background-color: red;
+        }
+        section ~ p{/*General sibling selector (~) */
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Jirathip
+        <p>Quarter 1</p>
+        <p>Quarter 2</p>
+        <p>Quarter 3</p>
+        <section>
+            <p>Next quarter</p>
+        </section>
+        <p>After Q4 you will have your final exam</p>
+        <p>Congrats</p>
+    </div>
+    <p>Quarter 4</p>
+</body>
+</html>
